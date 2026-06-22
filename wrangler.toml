@@ -1,0 +1,10 @@
+name = "agent-spend-governance"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+# KV namespace backing the budget ledger and audit trail.
+# Create it with:  npx wrangler kv namespace create GOVERNANCE
+# then paste the returned id below.
+[[kv_namespaces]]
+binding = "GOVERNANCE"
+id = "fbf2de87b9364c8bada3e4e3cd60148b"
